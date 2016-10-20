@@ -152,7 +152,7 @@ Debian-7.*|Raspbian-7) # Wheezy
         PYTHON_PACKAGING=dh_pysupport
 	TCLTK_VERSION=8.5
 	;;
-Ubuntu-1[456].*|LinuxMint-17.*) # Trusty through Xenial
+Ubuntu-1[456].*|LinuxMint-1[78].*) # Trusty through Xenial
 	;;
 Ubuntu-1[12].*) # Natty Narwhal, Precise Pangolin (LTS), Quantal Quetzal
         EXTRA_DEPENDS=libgnomeprintui2.2-dev
