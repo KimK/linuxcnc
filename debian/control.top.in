@@ -3,6 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Sebastian Kuzminsky <seb@highlab.com>
 Build-Depends: debhelper (>= 6),
+    @PYTHON_PACKAGING_DEPENDS@,
     @KERNEL_DEPENDS@,
     @KERNEL_HEADERS@,
     @MODUTILS_DEPENDS@,
