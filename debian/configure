@@ -184,12 +184,12 @@ case $TARGET in
         fi
 
         if $BUILD_RTAI; then
-            EXTRA_BUILD="$EXTRA_BUILD,$RTAI_DEV"
+            EXTRA_DEPENDS="$EXTRA_DEPENDS,$RTAI_DEV"
             TARGET_EXTRA="$TARGET_EXTRA+rtai"
         fi
 
         if $BUILD_XENOMAI; then
-            EXTRA_BUILD="$EXTRA_BUILD,$XENOMAI_DEV"
+            EXTRA_DEPENDS="$EXTRA_DEPENDS,$XENOMAI_DEV"
             TARGET_EXTRA="$TARGET_EXTRA+xenomai"
         fi
 
